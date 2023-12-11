@@ -8,6 +8,8 @@ RUN npm install
 
 COPY . .
 
+VOLUME /usr/src/app
+
 ENV PORT=3000
 ENV GITHUB_ACCESS_TOKEN=your-github-access-token
 
